@@ -1,0 +1,32 @@
+.footer {
+	display: flex;
+	position: relative;
+	bottom: 0;
+	justify-content: center;
+	margin-top: 20px;
+	background-color: rgba(0, 0, 0, 0.496);
+	width: 100%;
+	padding: 20px;
+}
+
+.other-links > ul {
+	display: flex;
+	list-style-type: none;
+}
+
+.other-links > ul > li {
+	display: flex;
+	justify-content: space-between;
+	color: antiquewhite;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	margin-right: 60px;
+}
+
+.other-links > ul > li > a {
+	text-decoration: none;
+	color: antiquewhite;
+}
+
+.other-links > ul > li > a:hover {
+	color: rgb(194, 194, 255);
+}
